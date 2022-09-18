@@ -18,5 +18,11 @@ public class Registry {
         timeTable.setDoctorRequest(timeTableRequest);
         DoctorCard doctorCard= timeTable.getDoctorCard();
         System.out.println(doctorCard.toString());
+        BuildingPlanRequest buildingPlanRequest=new BuildingPlanRequest();
+        buildingPlanRequest.numberCabinets=doctorCard.getNumberCabinet();
+        BuildingPlan buildingPlan = new BuildingPlan();
+        buildingPlan.setBuildingPlanPosition(buildingPlanRequest);
+        System.out.println("Пациенту необходимо пройти в кабинет №"+doctorCard.getNumberCabinet()
+                +", который расположен на "+buildingPlan.getFloor()+" этаже");
     }
 }
