@@ -1,5 +1,8 @@
 package HomeWork;
 
+import org.springframework.stereotype.Component;
+
+
 public class PatientCard {
     private String firstName;
     private String lastName;

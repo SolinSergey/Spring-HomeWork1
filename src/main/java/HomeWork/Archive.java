@@ -1,5 +1,8 @@
 package HomeWork;
 
+import org.springframework.stereotype.Component;
+
+
 public class Archive {
     private PatientCard patientCard;
     Patient patient;

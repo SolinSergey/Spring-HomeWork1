@@ -1,5 +1,8 @@
 package HomeWork;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
 public class Patient {
     private String firstName;
     private String lastName;

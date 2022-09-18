@@ -1,6 +1,9 @@
 package HomeWork;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Date;
+
 
 public class Registry {
     public void setRequestFromPatient (Patient patient){

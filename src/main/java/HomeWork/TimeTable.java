@@ -1,5 +1,7 @@
 package HomeWork;
 
+import org.springframework.stereotype.Component;
+
 import javax.print.Doc;
 
 public class TimeTable {
