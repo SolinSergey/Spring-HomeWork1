@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWorkSpring;
 
 import org.springframework.stereotype.Component;
 

@@ -1,7 +1,4 @@
-package HomeWork;
-
-import org.springframework.stereotype.Component;
-
+package HomeWorkSpring;
 
 public class DoctorCard {
     private String firstName;

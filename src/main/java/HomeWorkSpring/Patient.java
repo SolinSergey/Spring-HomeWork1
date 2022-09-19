@@ -3,14 +3,10 @@ package HomeWorkSpring;
 import org.springframework.stereotype.Component;
 
 //@Component("patient")
-public class Patient{
+public class Patient {
     private String firstName;
     private String lastName;
     private String request;
-
-    public Patient(){
-        System.out.println("Создан пациент");
-    }
 
     public String getFirstName() {
         return firstName;

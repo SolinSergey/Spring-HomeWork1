@@ -1,11 +1,17 @@
-package HomeWork;
+package HomeWorkSpring;
 
-import org.springframework.stereotype.Component;
-
-import javax.print.Doc;
+import HomeWorkSpring.TimeTableRequest;
 
 public class TimeTable {
-    DoctorCard doctorCard=new DoctorCard();
+    DoctorCard doctorCard;
+
+    public TimeTable() {
+        System.out.println("Создана доска информации");
+    }
+
+    public void setTimeTable (DoctorCard doctorCard){
+        this.doctorCard=doctorCard;
+    }
 
     public void setDoctorRequest (TimeTableRequest timeTableRequest){
         System.out.println("Запрошена информация о враче и о том, где он принимает");
